@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tari Kecak Bali - Presentasi Budaya Lokal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div id="hero-bg"></div>
+        <div id="hero-overlay">
+            <h1 id="hero-title">TARI KECAK BALI</h1>
+            <p id="hero-subtitle">Tradisi • Energi • Ritual</p>
+            <button id="play-audio">Putar Audio</button>
+        </div>
+        <canvas id="particle-canvas"></canvas>
+    </section>
+
+    <!-- Materi Section -->
+    <section id="materi">
+        <div class="container">
+            <h2 class="section-title">Apa itu Kecak</h2>
+            <p class="content-text">Tari Kecak adalah tarian tradisional Bali yang melibatkan gerakan ritmis dan suara "cak" dari para penari pria, sering dikombinasikan dengan cerita Ramayana. Ini bukan hanya tarian, tapi juga ritual yang menghubungkan manusia dengan energi spiritual.</p>
+
+            <h2 class="section-title">Sejarah & Evolusi</h2>
+            <div class="timeline">
+                <div class="timeline-item">1930-an: Diciptakan oleh Wayan Limbak dan Walter Spies.</div>
+                <div class="timeline-item">Modern: Berkembang menjadi atraksi wisata, tetap mempertahankan esensi ritual.</div>
+            </div>
+
+            <h2 class="section-title">Struktur Pertunjukan</h2>
+            <ul class="bullet-list">
+                <li><span class="icon">🔥</span> Pembukaan dengan suara cak ritmis.</li>
+                <li><span class="icon">👤</span> Penari utama memerankan Hanoman.</li>
+                <li><span class="icon">🎭</span> Klimaks dengan gerakan energik.</li>
+            </ul>
+
+            <h2 class="section-title">Kostum & Properti</h2>
+            <div class="kostum-gallery">
+                <img src="img/kecak1.jpg" alt="Kostum Kecak" class="kostum-img">
+                <p class="caption">Penari menggunakan kain sarung dan aksesori api-simbolik.</p>
+            </div>
+
+            <h2 class="section-title">Fakta Cepat</h2>
+            <div class="fakta-list">
+                <div class="fakta-item">Melibatkan 50-100 penari pria.</div>
+                <div class="fakta-item">Berlangsung 45-60 menit.</div>
+                <div class="fakta-item">Simbol api sebagai energi kehidupan.</div>
+                <div class="fakta-item">Populer di Uluwatu dan GWK.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section id="galeri">
+        <h2 class="section-title">Galeri</h2>
+        <div class="galeri-grid">
+            <img src="img/kecak1.jpg" alt="Kecak 1" class="galeri-img">
+            <img src="img/kecak2.jpg" alt="Kecak 2" class="galeri-img">
+            <img src="img/kecak3.jpg" alt="Kecak 3" class="galeri-img">
+        </div>
+    </section>
+
+    <!-- Lokasi Section -->
+    <section id="lokasi">
+        <h2 class="section-title">Lokasi Pertunjukan</h2>
+        <div class="lokasi-buttons">
+            <button class="lokasi-btn" data-location="Uluwatu">Uluwatu</button>
+            <button class="lokasi-btn" data-location="GWK Cultural Park">GWK Cultural Park</button>
+            <button class="lokasi-btn" data-location="Batubulan">Batubulan</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2023 Tari Kecak Bali - Presentasi Budaya Lokal</p>
+    </footer>
+
+    <!-- Audio Element -->
+    <audio id="kecak-audio" src="audio/kecak.mp3" preload="none"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
